@@ -1,5 +1,6 @@
 import './App.css';
 import dashboard from "./Dashboard";
+import profile from "./profile";
 function App() {
   return (
     <>
@@ -60,7 +61,7 @@ function App() {
 				</div>
 			</div>
 		</nav>
-{dashboard()}
+{profile()}
 
 	</div>
 
